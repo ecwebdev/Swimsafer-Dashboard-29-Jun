@@ -26,4 +26,4 @@ if not check_password():
 with open("index.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
-components.html(html_content, height=1000, scrolling=True)
+components.html(html_content, height=2500, scrolling=False)
